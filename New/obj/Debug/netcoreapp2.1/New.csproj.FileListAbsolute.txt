@@ -1,0 +1,14 @@
+C:\Users\riya\source\repos\New\New\bin\Debug\netcoreapp2.1\New.deps.json
+C:\Users\riya\source\repos\New\New\bin\Debug\netcoreapp2.1\New.runtimeconfig.json
+C:\Users\riya\source\repos\New\New\bin\Debug\netcoreapp2.1\New.runtimeconfig.dev.json
+C:\Users\riya\source\repos\New\New\bin\Debug\netcoreapp2.1\New.dll
+C:\Users\riya\source\repos\New\New\bin\Debug\netcoreapp2.1\New.pdb
+C:\Users\riya\source\repos\New\New\obj\Debug\netcoreapp2.1\New.csprojAssemblyReference.cache
+C:\Users\riya\source\repos\New\New\obj\Debug\netcoreapp2.1\New.csproj.CoreCompileInputs.cache
+C:\Users\riya\source\repos\New\New\obj\Debug\netcoreapp2.1\New.RazorAssemblyInfo.cache
+C:\Users\riya\source\repos\New\New\obj\Debug\netcoreapp2.1\New.RazorAssemblyInfo.cs
+C:\Users\riya\source\repos\New\New\obj\Debug\netcoreapp2.1\New.AssemblyInfoInputs.cache
+C:\Users\riya\source\repos\New\New\obj\Debug\netcoreapp2.1\New.AssemblyInfo.cs
+C:\Users\riya\source\repos\New\New\obj\Debug\netcoreapp2.1\New.RazorTargetAssemblyInfo.cache
+C:\Users\riya\source\repos\New\New\obj\Debug\netcoreapp2.1\New.dll
+C:\Users\riya\source\repos\New\New\obj\Debug\netcoreapp2.1\New.pdb
