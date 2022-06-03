@@ -1,0 +1,109 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header>
+        <div class="nav_bar">
+    <img class="logo" src="https://img.freepik.com/free-vector/symbol-infinity-art-info-vector-illustration_3482-2832.jpg?w=740" alt="LOGO">
+      
+      
+      <ul >
+
+          <li ><a href="index.html">Home</a></li>
+          <li ><a href="#">Login</a></li>
+          <li ><a href="register.html">Register</a></li>
+          
+      </ul>
+  </div>
+  </header>
+  <h1 class="head">Welcome Back!</h1>
+  <p class="head2">To keep connected with us please login with your personal info.</p>
+    <div class="container">
+        <div class="screen">
+            <div class="screen__content">
+                <form class="login">
+                    <div class="login__field">
+                        <i class="login__icon fas fa-user"></i>
+                        <input type="text" class="login__input" id="users" placeholder="User name / Email">
+                    </div>
+                    <div class="login__field">
+                        <i class="login__icon fas fa-lock"></i>
+                        <input type="password" class="login__input"  id="password" placeholder="Password">
+                    </div>
+                    <button type="button" class="button login__submit" id="btn" onclick="checkUser()">
+                        <span class="button__text"  >Log In Now</span>
+                        <i class="button__icon fas fa-chevron-right"></i>
+                    </button>				
+                </form>
+                <div class="social-login">
+                    <!-- <h3>log in via</h3> -->
+                    <div class="social-icons">
+                        <a href="#" class="social-login__icon fab fa-instagram"></a>
+                        <a href="#" class="social-login__icon fab fa-facebook"></a>
+                        <a href="#" class="social-login__icon fab fa-twitter"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="screen__background">
+                <span class="screen__background__shape screen__background__shape4"></span>
+                <span class="screen__background__shape screen__background__shape3"></span>		
+                <span class="screen__background__shape screen__background__shape2"></span>
+                <span class="screen__background__shape screen__background__shape1"></span>
+            </div>		
+        </div>
+    </div>
+    <!-- <script type="text/Javascript">
+        var UserName2=document.getElementById("users");
+    var password2=document.getElementById("password");
+    var lu = document.getElementById("btn");
+    lu.addEventListener("click", function(){
+       fetch("http://localhost:54266/api/Login",{
+          method:'POST',
+          headers:{
+              'content-type':'application/json'
+          },
+          body:JSON.stringify({
+              "Username": UserName2.value,
+              "UserPassword":password2.value,
+          })
+      }).then( res=>{
+        console.log(res.text);
+          return res.text();
+      }) .then(data=> show(data))
+      .catch(error=>console.log(error))
+  });
+  function show(data)
+  {
+   
+    if(data!=null && data!=undefined && data!="")
+    {
+       sessionStorage.setItem("token",data);
+    }
+   Call();
+  }
+ 
+
+  function Call()
+  {
+    if(sessionStorage.getItem("token")!=null)
+  {
+    window.location.href="dashboard.html";
+  }
+  else
+  {
+    alert("Login Credentials are wrong");
+  }
+  }
+    </script> -->
+    <script src="login.js"></script>
+</body>
+</html>
